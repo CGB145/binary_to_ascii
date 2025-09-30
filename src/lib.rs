@@ -1,6 +1,7 @@
 use std::collections::HashMap;
 pub fn convert(mut x: &str) -> String {
     let ascii_codes =HashMap::from([
+        ("00000000", ""),
         ("00100000", " "),
         ("00100001", "!"),
         ("00100010", "\""),
