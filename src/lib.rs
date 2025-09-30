@@ -109,7 +109,7 @@ pub fn convert(mut x: &str) -> String {
 
         let slice_count = i * 8;
         let x_slice = &x[slice_count-8..slice_count];
-        result.push_str(ascii_codes.get(x_slice).unwrap());
+        result.push_str(ascii_codes.get(x_slice).unwrap_or(&""));
 
         i += 1;
 
