@@ -112,11 +112,7 @@ pub fn convert(mut x: &str) -> String {
 
         i += 1;
 
-
-
     }
-    println!("Result = {:#?}", result);
-
     result
 }
 
